@@ -1,0 +1,50 @@
+/*Selector universal, para aplicarlo a todas las etiquetas*/ 
+
+*{
+    background-color: aqua;
+
+    /*color del texto*/
+    color:brown
+}
+
+/*de etiquetas*/
+h1{
+    color:darkgoldenrod;
+    border: ridge red; 
+}
+
+h2{
+    color:burlywood;
+}
+
+h3{
+    color:chartreuse;
+}
+
+/*selector de clase, siempre lleva el punto*/
+
+.serif{
+    /*tipografia*/
+    font-family: sans-serif;
+    /*tamaño*/
+    font-size: 30px;
+    /*peso*/
+    font-weight: 900;
+
+    /*alineación*/
+    text-align: center;
+}
+
+/*de id, siempre con #*/
+#rosa{
+    color:palevioletred
+}
+
+#link{
+    text-align:center;
+    font-style:oblique;
+}
+
+img{
+    width: 300px;
+}
